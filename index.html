@@ -1130,14 +1130,14 @@
             textLetter.textContent = ''; // Xóa nội dung hiện tại của textLetter
             clearInterval(timoutTextLetter);
             timoutTextLetter = setInterval(() => {
-                textCharLetter();
+                textCharLetter(); 
             }, 200)
         }
 
         // chữ của thư bạn muốn gửi
         let indexTextContent = 0;
         let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = "Hôm nay là ngày 20/10 chúc chủ shop Yem Mì luôn hạnh phúc và gặp nhiều may mắn trong cuộc sống nè. Trưởng thành hơn, bớt lì, bớt báo lại!!!!!";
+        const textLetterP = "Hôm nay là ngày 20/10 chúc chủ shop Yem Mì luôn hạnh phúc và gặp nhiều may mắn trong cuộc sống nè. Mãi là em bé núp sau cây cột điện!!!!!";
         let timoutTextLetterContent;
         function textCharLetterContent() {
             if (indexTextContent < textLetterP.length) {
